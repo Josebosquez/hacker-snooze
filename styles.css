@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    flex-direction: column;
+    height: auto;
+}
+/*top row*/
+#container-1 {
+    font-size: 4em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 110px;
+    background-color: whitesmoke;
+    word-wrap: normal;
+    border: 1px solid black;
+    
+}
+/*middle row*/
+.container-2 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    display: flex;
+    width: 90%;
+    height: auto;
+    word-wrap: normal;
+    border: 1px solid black;
+}
+/*right side of middle row*/
+.containertwo {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* website box*/
+.container-3 {
+    word-wrap: normal;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 20px;
+}
+/*title box*/
+.articleBox {
+    background-color: green;
+    border: 1px solid hotpink;
+    height: 100%;
+    width: 100%;
+}
+/*score, author, comment info*/
+.MainSub{
+    height: 70%;
+    background-color: hotpink;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#logophoto {
+    width: 200px;
+    height: 1.5em;
+}
+#textInput{
+    width: 140px;
+    height: 25px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+#searchbar-button{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+
+
+
+
+/* https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1523234139540-EE4ELC9CM04MH0OS8N54/ke17ZwdGBToddI8pDm48kAedMaeatuEekj-6BXcWDq8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2oyQKbRIHGOgNxl-HuSi51fPmdkPElzw_qjx4dlrZwxcfdurHDt8XjyaGurlSWvQe/rick-and-morty-dungeons-and-dragons-crossover-1100299.jpeg */
