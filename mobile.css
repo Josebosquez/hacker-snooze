@@ -1,0 +1,55 @@
+
+/* ---------------mobile------------- */
+@media screen and (max-width: 700px) {
+    body {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    flex-direction: column;
+    height: auto;
+    background-image: url(https://i.redd.it/lwwt86ci5anz.jpg);
+    }
+    /*top row*/
+    #container-1 {
+        font-size: 5em;
+    }
+    /*middle row*/
+    .middle {
+    font-size: 2.5em;
+    }
+    
+    /* website box*/
+    .container-3 {
+        font-size: 10px;
+    }
+
+    /*score, author, comment info*/
+    .MainSub{
+    flex-direction: column;
+    }
+    
+    
+    #logophoto {
+        width: 100px;
+        height: 3.5em;
+    
+    }
+    #textInput{
+        width: 50px;
+        height: 25px;
+    }
+    
+    #searchbar-button{
+        width: 50px;
+    }
+    
+    #funny {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #youtube{
+        width:100px;
+        height:100px;
+    }
+}
